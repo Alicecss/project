@@ -1,0 +1,155 @@
+{
+//  猫眼的api协议
+  // http://m.maoyan.com/
+
+//  查出电影详情(包含评论)
+//  http://m.maoyan.com/movie/xxxx.json
+
+  // 查询出首页电影列表
+  "control": {
+    "expires": 1800
+  },
+  "status": 0,
+  "data": {
+    "hasNext": true,
+    "movies": [{
+      "showInfo": "今天174家影院放映2627场",
+      "late": false,
+      "cnms": 0,
+      "sn": 0,
+      "preSale": 0,
+      "pn": 329,
+      "vd": "",
+      "dir": "刘若英",
+      "star": "井柏然,周冬雨,田壮壮",
+      "cat": "剧情,爱情",
+      "wish": 911022,
+      "3d": false,
+      "scm": "",
+      "dur": 120,
+      "sc": 8.1,
+      "ver": "2D/全景声",
+      "rt": "2018-04-28上映",
+      "nm": "后来的我们",
+      "img": "http://p0.meituan.net/165.220/movie/8c0af864aa72c46eb15c003d46ebfdc8602165.jpg",
+      "showDate": "",
+      "src": "",
+      "imax": false,
+      "snum": 713085,
+      "time": "",
+      "id": 343720
+    }, {
+      "showInfo": "今天171家影院放映1360场",
+      "late": false,
+      "cnms": 0,
+      "sn": 0,
+      "preSale": 0,
+      "pn": 57,
+      "vd": "",
+      "dir": "S·S·拉贾穆里",
+      "star": "帕拉巴斯,拉纳·达格巴帝,安努舒卡·谢蒂",
+      "cat": "剧情,动作,冒险,战争,奇幻",
+      "wish": 26749,
+      "3d": false,
+      "scm": "",
+      "dur": 141,
+      "sc": 8.9,
+      "ver": "2D/IMAX 2D/中国巨幕",
+      "rt": "本周五上映",
+      "nm": "巴霍巴利王2：终结",
+      "img": "http://p0.meituan.net/165.220/movie/3e42788f6f6283f430e74ac2381dd6ad151806.jpg",
+      "showDate": "",
+      "src": "",
+      "imax": true,
+      "snum": 4551,
+      "time": "",
+      "id": 342791
+    }, {
+      "showInfo": "2018-05-11 下周五上映",
+      "late": false,
+      "cnms": 0,
+      "sn": 0,
+      "preSale": 1,
+      "pn": 277,
+      "vd": "",
+      "dir": "安东尼·罗素,乔·罗素",
+      "star": "小罗伯特·唐尼,克里斯·海姆斯沃斯,马克·鲁法洛",
+      "cat": "动作,冒险,科幻",
+      "wish": 960436,
+      "3d": true,
+      "scm": "",
+      "dur": 150,
+      "sc": 0.0,
+      "ver": "2D/IMAX 3D/中国巨幕/全景声",
+      "rt": "下周五上映",
+      "nm": "复仇者联盟3：无限战争",
+      "img": "http://p0.meituan.net/165.220/movie/06097fca8bea254bb570a6ed4d8315e0198927.jpg",
+      "showDate": "",
+      "src": "",
+      "imax": true,
+      "snum": 46315,
+      "time": "",
+      "id": 248170
+    }, {
+      "showInfo": "今天162家影院放映894场",
+      "late": false,
+      "cnms": 0,
+      "sn": 0,
+      "preSale": 0,
+      "pn": 96,
+      "vd": "",
+      "dir": "布拉德·佩顿",
+      "star": "道恩·强森,娜奥米·哈里斯,杰弗里·迪恩·摩根",
+      "cat": "动作,冒险,科幻",
+      "wish": 160742,
+      "3d": true,
+      "scm": "",
+      "dur": 108,
+      "sc": 9.0,
+      "ver": "2D/3D/IMAX 3D/中国巨幕/全景声",
+      "rt": "2018-04-13上映",
+      "nm": "狂暴巨兽",
+      "img": "http://p0.meituan.net/165.220/movie/75fc3610bfe91b6ad8ae5f186f1c2fd6294933.jpg",
+      "showDate": "",
+      "src": "",
+      "imax": true,
+      "snum": 558172,
+      "time": "",
+      "id": 341624
+    }, {
+      "showInfo": "今天169家影院放映886场",
+      "late": false,
+      "cnms": 0,
+      "sn": 0,
+      "preSale": 0,
+      "pn": 267,
+      "vd": "",
+      "dir": "任鹏远",
+      "star": "徐峥,王丽坤,王砚辉",
+      "cat": "剧情,悬疑,犯罪",
+      "wish": 69050,
+      "3d": false,
+      "scm": "",
+      "dur": 114,
+      "sc": 8.1,
+      "ver": "2D/中国巨幕/全景声",
+      "rt": "2018-04-28上映",
+      "nm": "幕后玩家",
+      "img": "http://p0.meituan.net/165.220/movie/90c0d962d127ce8b11ec616795e91b0e6893141.jpg",
+      "showDate": "",
+      "src": "",
+      "imax": false,
+      "snum": 87654,
+      "time": "",
+      "id": 346637
+    }]
+  }
+}
+
+
+
+
+
+
+
+

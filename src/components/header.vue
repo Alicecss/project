@@ -3,7 +3,7 @@
   <div class="header">
     <!--图标猫眼电影-->
     <div class="header-inner">
-      <img src="../common/image/icon01.png" class="logo">
+      <a href="" class="logo"></a>
     </div>
     <!--城市定位-->
     <div class="city-container">
@@ -32,7 +32,7 @@
     <!--搜索框-->
     <from class="search-click">
       <input type="search" class="search" placeholder="找影视剧、娱乐、综艺">
-      <input type="submit" class="submit">
+      <input type="submit" class="submit" value>
     </from>
     <!--登录-->
     <div class="user-info">
@@ -58,29 +58,61 @@ export default {
 </script>
 
 <style scoped>
+  div{
+    display: block;
+  }
   .header{
     position: fixed;
     top: 0;
     z-index:999;
     width: 100%;
+    min-width: 1200px;
     background-color: #fff;
     border-bottom:1px solid #d8d8d8;
   }
   li{
     list-style: none;
   }
+  .header-inner{
+    width: 1200px;
+    margin: 0;
+    height: 80px;
+    padding: 0;
+    float: left;
+  }
   .header-inner .logo{
     float: left;
     width: 133px;
-    margin: 25px 20px;
+    height: 80px;
+    background:url("../common/image/icon01.png") no-repeat 0;
+    background-size:contain;
   }
   .city-container{
+    position: absolute;
     float: left;
-    margin-right: 25px;
+    height: 100%;
+    left: 167px;
+    top:-2px;
   }
-  .city-name{
+  .city-container .city-selected {
+    cursor: pointer;
+    height: 100%;
+    padding: 0 10px;
+    border:1px solid transparent;
+    border-width:0 1px;
+    z-index: 101;
+  }
+  .city-container .city-name{
+    display: inline-block;
+    margin-top: 32px;
     color: #333;
-    margin: 35px 0;
+  }
+  .nav{
+    display: inline-block;
+    background-color:#fff;
+    overflow: hidden;
+    margin-left: 40px;
+    float: left;
   }
   .nav .navbar li{
     margin: 18px 18px;
@@ -118,8 +150,9 @@ export default {
     background-color: red;
     border-radius: 30px;
     cursor: pointer;
-   right: 188px;
+    right: 188px;
     top:25px;
+    background-image: url("../common/image/search.png");
   }
   .user-info{
     position: absolute;
